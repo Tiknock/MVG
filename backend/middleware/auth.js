@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: "./backend/.env" });
 const jwt = require("jsonwebtoken");
 
 // Middleware to authenticate requests using JWT token
